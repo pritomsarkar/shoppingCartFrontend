@@ -1,8 +1,13 @@
 import './App.css';
+import './components/stateWiseData/stateWise';
+import Statewise from './components/stateWiseData/stateWise';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <h1>shopping Cart for git hub by Pritom..</h1>
+    <>
+      <Statewise/>
+    </>
   );
 }
 
